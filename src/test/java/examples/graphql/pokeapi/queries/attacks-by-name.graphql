@@ -1,0 +1,11 @@
+query ($name: String) {
+  pokemon(name: $name) {
+    id
+    name
+    moves {
+      move {
+        name
+      }
+    }
+  }
+}
